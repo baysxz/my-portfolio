@@ -1,6 +1,9 @@
 // import { Skill } from "@/Components/Skill";
 // import { JavascriptIcon } from "../Components/icons/JavascriptIcons";
 
+import Header from "@/Components/Header";
+import Hero from "../Components/Hero";
+
 // const skills = [
 //   {
 //     id: 1,
@@ -52,3 +55,12 @@
 //   </div>
 //   );
 // };
+
+export default function Home() {
+  return (
+    <div className="container mx-auto">
+      <Header />
+      {/* <Hero /> */}
+    </div>
+  );
+}
