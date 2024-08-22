@@ -1,4 +1,4 @@
-import { JavascriptIcon } from "./icons/JavascriptIcons";
+import { JavascriptIcon } from "../icons/JavascriptIcons";
 
 export const Skill = () => {
   return (
