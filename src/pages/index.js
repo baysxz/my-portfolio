@@ -3,6 +3,7 @@
 
 import Header from "@/Components/Header";
 import Hero from "../Components/Hero";
+import About from "@/Components/About";
 
 // const skills = [
 //   {
@@ -58,7 +59,7 @@ import Hero from "../Components/Hero";
 
 export default function Home() {
   return (
-    <div className='container mx-auto'>
+    <div className="container mx-auto">
       <Header />
       <Hero />
     </div>
