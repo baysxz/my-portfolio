@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className='flex justify-between p-4'>
       <h1 className='font-normal text-3xl text-center'>BAY</h1>
-      <div className='sm:hidden md:block'>
+      <div className='md:hidden '>
         <ul className='flex flex-row gap-6 text-gray-600  justify-center items-center'>
           <li>About</li>
           <li>About</li>
@@ -21,7 +21,7 @@ export default function Header() {
           </button>
         </ul>
       </div>
-      <div className='lg:hidden'>
+      <div className=' '>
         <MenuIcon />
       </div>
     </div>
