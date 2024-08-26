@@ -1,10 +1,10 @@
-import { MenuIcon } from "../icons/MenuIcon";
-import { Divider } from "../icons/Divider";
-import { DarkModeIcon } from "../icons/DarkModeIcon";
+import { MenuIcon } from "./icons/MenuIcon";
+import { Divider } from "./icons/Divider";
+import { DarkModeIcon } from "./icons/DarkModeIcon";
 
 export default function Header() {
   return (
-    <div className="flex justify-between sm:p-4 2xl:px-20 2xl:py-4">
+    <div className="flex justify-between p-4 lg:px-20 lg:py-4 px-8">
       <h1 className="font-normal text-3xl text-center ">BAY</h1>
       <div className="md:block sm:hidden">
         <ul className="flex flex-row gap-6 text-gray-600  justify-center items-center">
@@ -22,7 +22,7 @@ export default function Header() {
           </button>
         </ul>
       </div>
-      <div className="sm:block 2xl:hidden w-[24px] h-[24px] ">
+      <div className="sm:block hidden w-[24px] h-[24px] ">
         <MenuIcon />
       </div>
     </div>

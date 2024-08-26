@@ -1,5 +1,5 @@
-import { LocationIcon } from "../icons/LocationIcon";
-import { IconDot } from "../icons/IconDot";
+import { LocationIcon } from "./icons/LocationIcon";
+import { IconDot } from "./icons/IconDot";
 
 export const Status = () => {
   return (
