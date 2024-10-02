@@ -1,7 +1,7 @@
 import { Status } from "./Status";
 import { Github } from "./icons/Github";
 import { Twitter } from "./icons/Twitter";
-import { Figma } from "./icons/Figma";
+import { FigmaIcon } from "./icons/FigmaIcon";
 
 export default function Hero() {
   return (
@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="flex ">
             <Github />
             <Twitter />
-            <Figma />
+            <FigmaIcon />
           </div>
         </div>
       </div>
