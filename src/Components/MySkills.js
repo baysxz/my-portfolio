@@ -99,8 +99,8 @@ const skills = [
 ];
 export default function MySkills() {
   return (
-    <div className='container mx-auto'>
-      <div className='grid sm:grid-cols-3 md:grid-cols-6 grid-cols-8'>
+    <div className="container mx-auto">
+      <div className="grid sm:grid-cols-3 md:grid-cols-6 grid-cols-8">
         {skills.map((skill) => {
           return <Skill key={skill.id} name={skill.name} icon={skill.icon} />;
         })}
@@ -108,13 +108,3 @@ export default function MySkills() {
     </div>
   );
 }
-
-// export default function Home() {
-//   return (
-//     <div>
-//       {skills.map((skill) => {
-//         return <Skill key={skill.id} icon={skill.icon} name={skill.name} />;
-//       })}
-//     </div>
-//   );
-// }
