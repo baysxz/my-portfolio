@@ -1,7 +1,6 @@
 import About from "@/Components/About";
 import { Experience } from "@/Components/Experience";
 import Header from "@/Components/Header";
-import Hero from "@/Components/Hero";
 import SkillsPage from "@/Components/SkillsPage";
 
 export default function Home() {
