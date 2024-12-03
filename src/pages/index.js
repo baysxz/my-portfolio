@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <div className="container max-w-7xl mx-auto">
       <Header />
-      <Hero />
       <About />
       <SkillsPage />
       <Experience />
