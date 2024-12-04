@@ -35,9 +35,10 @@ export const Experience = () => {
   return (
     <div>
       <div>
-        {data.map((experience) => {
+        {data.map((experience, index) => {
           return (
             <MyExperience
+              key={index}
               date={experience.date}
               position={experience.position}
               experience={experience.experience}
