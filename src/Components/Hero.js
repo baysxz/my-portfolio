@@ -1,8 +1,5 @@
 import { Status } from "./Status";
-import { Github } from "./icons/Github";
-import { Twitter } from "./icons/Twitter";
-import { FigmaIcon } from "./icons/FigmaIcon";
-
+import { Figma, Github, TwitterIcon } from "lucide-react";
 export default function Hero() {
   return (
     <div className=" py-24 px-20 sm:px-4 sm:py-16">
@@ -18,7 +15,7 @@ export default function Hero() {
             <h1 className="text-4xl  not-italic font-semibold sm:pt-12">
               Hi, I’m Tom 👋
             </h1>
-            <p className=" self-stretch text-base font-normal  ">
+            <p className=" self-stretch text-base font-normal text-gray-600">
               I specialize in full stack development, particularly with React.js
               and Node.js. My main goal is to create exceptional digital
               experiences that are fast, visually appealing, and accessible to
@@ -26,13 +23,13 @@ export default function Hero() {
               continue to find joy in crafting innovative solutions and designs.
             </p>
           </div>
-          <div className="flex-col ">
+          <div className="">
             <Status />
           </div>
-          <div className="flex ">
-            <Github />
-            <Twitter />
-            <FigmaIcon />
+          <div className="flex items-center">
+            <Github className="w-9 h-9" />
+            <TwitterIcon className="w-9 h-9" />
+            <Figma className="w-9 h-9" />
           </div>
         </div>
       </div>

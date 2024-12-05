@@ -2,6 +2,7 @@ import { MyExperience } from "./MyExperience";
 
 const data = [
   {
+    user: "boogii",
     date: "Nov 2021 - Present",
     position: "Sr. Frontend Developer",
     experience: [
@@ -12,6 +13,7 @@ const data = [
     ],
   },
   {
+    user: "boogii",
     date: "Jul 2017 - Oct 2021",
     position: "Team Lead",
     experience: [
@@ -22,6 +24,7 @@ const data = [
     ],
   },
   {
+    user: "boogii",
     date: "Dec 2015 - May 2017",
     position: "Full Stack Developer",
     experience: [
@@ -33,8 +36,13 @@ const data = [
 
 export const Experience = () => {
   return (
-    <div>
+    <div className="bg-gray-50 flex flex-col items-center">
       <div>
+        <p className="text-lg font-normal text-gray-600 flex items-center">
+          Here is a quick summary of my most recent experiences:
+        </p>
+      </div>
+      <div className="flex flex-col gap-4 justify-center">
         {data.map((experience, index) => {
           return (
             <MyExperience
