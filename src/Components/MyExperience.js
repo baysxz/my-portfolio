@@ -1,7 +1,7 @@
 import { Upwork } from "./icons/Upwork";
 
 export const MyExperience = (props) => {
-  const { date, position, experience, user } = props;
+  const { date, position, experience } = props;
 
   return (
     <div>
