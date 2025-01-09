@@ -64,9 +64,17 @@ const data = [
   },
 ];
 
-export const Work = () => {
+const Work = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center flex-col px-4 py-16 gap-6">
+      <div className="flex flex-col justify-center items-center gap-5">
+        <p className="px-5 py-1 w-[105px] h-[28px] bg-gray-200 border-solid rounded-xl text-sm flex justify-center">
+          Work
+        </p>
+        <p className="text-lg font-normal text-gray-600">
+          Some of the noteworthy projects I have built:{" "}
+        </p>
+      </div>
       {data.map((WorkExperience, index) => {
         return (
           <MyCompanies
@@ -81,3 +89,5 @@ export const Work = () => {
     </div>
   );
 };
+
+export default Work;

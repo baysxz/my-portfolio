@@ -31,11 +31,11 @@ const data = [
   },
 ];
 
-export const Experience = () => {
+const Experience = () => {
   return (
     <div className="container mx-auto lg:flex lg:flex-col bg-gray-50 flex flex-col items-center gap-4 py-24 px-4">
       <div className="flex flex-col justify-center items-center gap-5">
-        <p className="px-5 py-1 w-[105px] h-[28px] bg-gray-200 border-solid rounded-xl text-sm ">
+        <p className="px-5 py-1 w-[105px] h-[28px] bg-gray-200 border-solid rounded-xl text-sm">
           Experience
         </p>
         <p className="text-lg font-normal text-gray-600">
@@ -57,3 +57,5 @@ export const Experience = () => {
     </div>
   );
 };
+
+export default Experience;
