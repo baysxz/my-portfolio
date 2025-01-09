@@ -27,9 +27,9 @@ export default function Hero() {
             <Status />
           </div>
           <div className="flex items-center">
-            <Github className="w-9 h-9" />
-            <TwitterIcon className="w-9 h-9" />
-            <Figma className="w-9 h-9" />
+            <Github className="w-9 h-9 p-[6px]" />
+            <TwitterIcon className="w-9 h-9 p-[6px]" />
+            <Figma className="w-9 h-9 p-[6px]" />
           </div>
         </div>
       </div>
