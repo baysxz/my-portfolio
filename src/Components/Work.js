@@ -67,14 +67,12 @@ const data = [
 export const Work = () => {
   return (
     <div>
-      <div></div>
-      <p>Some of the noteworthy projects I have built:</p>
       {data.map((WorkExperience, index) => {
         return (
           <MyCompanies
             key={index}
             company={WorkExperience.company}
-            details={WorkExperience.company}
+            details={WorkExperience.details}
             frameworks={WorkExperience.frameworks}
             actions={WorkExperience.actions}
           />
